@@ -5,7 +5,7 @@ import {
   IoMdCloseCircleOutline
 } from 'react-icons/io';
 import { DataType } from '.';
-import cx from 'classname';
+import cx from 'classnames';
 
 interface Params {
   data: DataType;

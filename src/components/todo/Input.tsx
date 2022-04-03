@@ -20,6 +20,8 @@ const NewToDo = ({ data, setData }: Params) => {
     };
     setData([...data, newTask]);
     setInputData('');
+
+    // @ts-ignore
     inputRef.current?.focus();
   };
 
